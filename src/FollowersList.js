@@ -1,16 +1,16 @@
 const followerName=[
-    "Rithani",
-    "Kavya",
-    "Sneha",
-    "Niropama",
+    "RithiRiya",
+    "KavyaShri",
+    "Sneha_S",
+    "Neha_SR",
     "Raksha",
-    "Ann Binu",
+    "Ann_Binu",
     "Aparna",
-    "Dharshana",
+    "Dharsha",
     "Reethana",
-    "Pradhikshana",
+    "Pradhu",
     "Mithula",
-    "Mirudhula"
+    "MirudhuS"
 ]
 
 export default followerName;

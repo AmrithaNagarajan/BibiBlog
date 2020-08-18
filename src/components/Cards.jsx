@@ -6,7 +6,7 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import Comment from "./Comments.jsx";
-import { Link } from "react-router-dom";
+
 
 
 
@@ -16,7 +16,6 @@ function Card(props) {
 
   const [like,setLike] = useState(false);
   const [dropdown,setDropdown] = useState(false);
-  const [addComment, setAddComment] = useState(false);
 
   // function to handle like
   function handleLike(){
@@ -31,6 +30,7 @@ function Card(props) {
       return (!prevValue);
     });
   }
+
     return (
       <div className="card">
           <h3 className="name">  <PersonOutlineIcon/>{props.name}</h3>

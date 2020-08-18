@@ -11,15 +11,15 @@ import {Link} from "react-router-dom";
 
 function Options(){
     return(
-        <div className="options">
+        <div>        
             <Link to="/Mainpage">
-                <HomeIcon/>
+                <HomeIcon className="optionBackground home"/>
             </Link>
             <Link to="/Followers">
-                <AddBoxIcon/>
+                <AddBoxIcon className="optionBackground add"/>
             </Link>
             <Link to="/Settings">
-                <SettingsIcon className="icons"/>
+                <SettingsIcon className="optionBackground settings"/>
             </Link>
         </div>
     );

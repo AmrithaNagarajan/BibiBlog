@@ -23,7 +23,7 @@ function MainPage(){
                 })
             }
             </div>
-        <Options />
+            <Options />
         </div>
     );
 }
