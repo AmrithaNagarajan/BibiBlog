@@ -10,7 +10,7 @@ function Settings(){
         <div>
             <Header />
             <Link to="/">
-            <div className="container">
+            <div className="container logout">
                 <button>Log Out</button>
             </div>
             </Link>
